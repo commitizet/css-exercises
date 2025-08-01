@@ -36,3 +36,10 @@ img {
   align-items: center;
   gap: 32px;
 }
+
+.item {
+  width: 200px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
