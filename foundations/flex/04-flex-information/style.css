@@ -43,3 +43,8 @@ img {
   flex-wrap: wrap;
   justify-content: center;
 }
+
+.content {
+  gap: 52px;
+}
+
