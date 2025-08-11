@@ -82,3 +82,8 @@ button.cancel {
   justify-content: space-between;
   align-items: center;
 }
+
+/* step 4 */
+.header, .text {
+  margin-bottom: 16px;
+}
