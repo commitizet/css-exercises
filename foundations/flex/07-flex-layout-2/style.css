@@ -33,6 +33,8 @@ body {
   box-sizing: border-box;
   /* step 5 */
   flex: 1 0 auto;
+  /* step 7 */
+  padding: 16px;
 }
 
 .card {
