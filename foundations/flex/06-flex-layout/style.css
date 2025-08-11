@@ -35,3 +35,15 @@ input {
   align-items: center;
   gap: 16px;
 }
+
+/* step 3 */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: dimgray;
+}
