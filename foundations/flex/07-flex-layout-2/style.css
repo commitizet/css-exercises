@@ -32,7 +32,7 @@ body {
   background: royalblue;
   box-sizing: border-box;
   /* step 5 */
-  flex: 1 0 auto;
+  flex: none;
   /* step 7 */
   padding: 16px;
 }
@@ -41,6 +41,10 @@ body {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  /* step 8 */
+  flex: 0 0 250px;
+  padding: 16px;
+
 }
 
 /* step 4 */
@@ -60,4 +64,12 @@ a {
   text-decoration: none;
   color: #fff;
   font-size: 24px;
+}
+
+/* step 9 */
+.cards {
+  padding: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
 }
