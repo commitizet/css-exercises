@@ -56,3 +56,14 @@ a {
 .footer {
   background-color: #eee;
 }
+
+/* step 5 */
+.content {
+  flex: 1;
+  text-align: center;
+  align-content: center;
+}
+
+.content > :nth-child(-n+2) {
+  margin-bottom: 16px;
+}
